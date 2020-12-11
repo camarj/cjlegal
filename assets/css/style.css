@@ -2444,3 +2444,12 @@ a {
 
   z-index: -1;
 }
+
+
+@media (min-width: 991px) {
+.container-socios {
+  padding-left: 190px !important;
+  padding-right: 190px !important;
+ 
+}
+}
