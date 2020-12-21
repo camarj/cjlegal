@@ -1,6 +1,6 @@
 <?php 
 // EDIT THE 2 LINES BELOW AS REQUIRED
-$send_email_to = "raulj.camacho@dysiscom.com";
+$send_email_to = "raulj.camacho@gmail.com";
 $email_subject = "Mensaje desde Formulario";
 function send_email($name,$email,$email_message)
 {
@@ -76,5 +76,5 @@ if($return_array['success'] == '1')
 {
 	send_email($name,$email,$message);
 }
-header ("Location: https://dysiscom.com/clientes/cjlegal/confirmacion.html");
+header ("Location: https://cjlegal.net/confirmacion.html");
 ?>
